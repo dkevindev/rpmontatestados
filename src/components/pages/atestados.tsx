@@ -28,7 +28,7 @@ export const NovoAtestado = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://192.168.1.108:3000/api/dados');
+        const response = await fetch('http://25.4.107.112:3000/api/dados');
         if (!response.ok) {
           throw new Error('Erro ao carregar os dados');
         }

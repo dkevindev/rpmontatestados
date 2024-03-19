@@ -32,7 +32,7 @@ export const Tabelas = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('http://192.168.1.108:3000/api/tabela');
+                const response = await fetch('http://25.4.107.112:3000/api/tabela');
                 if (!response.ok) {
                     throw new Error('Erro ao carregar os dados');
                 }
